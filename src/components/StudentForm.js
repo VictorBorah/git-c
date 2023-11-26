@@ -3,7 +3,7 @@ import React from "react";
 export const StudentForm = (props) => {
   return (
     <div>
-      <h3 className="font-bold text-2xl ">Add Student</h3>
+      <h3 className="font-bold text-2xl ">Add Gang Member</h3>
       <div className="mt-2">
         <form id="studentForm" onSubmit={props.handleSubmit}>
           <div className="relative mb-4 flex flex-wrap items-stretch">
