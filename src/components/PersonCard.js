@@ -15,6 +15,9 @@ export const PersonCard = ({ person }) => {
           {person.address}
         </div>
         <p className="mt-2 text-sm text-gray-600">
+          <b>Email:</b> {person.email}
+        </p>
+        <p className="mt-2 text-sm text-gray-600">
           <b>Hobbies:</b> {person.hobbies}
         </p>
         <h1 className="text-l font-bold text-gray-700">Tel: {person.mobile}</h1>
