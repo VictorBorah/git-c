@@ -8,7 +8,7 @@ export const NavBar = (props) => {
         onClick={props.sayHi}
         className="btn btn-ghost text-xl text-white font-bold "
       >
-        King Kong College
+        The King Kong Gang
       </a>
     </div>
   );
